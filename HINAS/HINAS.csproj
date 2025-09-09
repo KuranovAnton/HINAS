@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="images\**" />
+    <EmbeddedResource Remove="images\**" />
+    <None Remove="images\**" />
+    <Page Remove="images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BgMenu.png" />
+    <None Remove="free-icon-canister.png" />
+    <None Remove="Legend.png" />
+    <None Remove="Views\images\BgMapRes.png" />
+    <None Remove="Views\images\BgMenu.png" />
+    <None Remove="Views\images\Check_List.png" />
+    <None Remove="Views\images\Clothes.png" />
+    <None Remove="Views\images\ClothesTrue.png" />
+    <None Remove="Views\images\Events.png" />
+    <None Remove="Views\images\free-icon-canister.png" />
+    <None Remove="Views\images\free-icon-water-drop.png" />
+    <None Remove="Views\images\Legend.png" />
+    <None Remove="Views\images\Logo.png" />
+    <None Remove="Views\images\maintenance.png" />
+    <None Remove="Views\images\MarshTrue.png" />
+    <None Remove="Views\images\NameAndDate.png" />
+    <None Remove="Views\images\PlanerLogo.png" />
+    <None Remove="Views\images\Products.png" />
+    <None Remove="Views\images\Reminders.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\images\BgMapRes.png" />
+    <Resource Include="Views\images\BgMenu.png" />
+    <Resource Include="Views\images\Check_List.png" />
+    <Resource Include="Views\images\Clothes.png" />
+    <Resource Include="Views\images\ClothesTrue.png" />
+    <Resource Include="Views\images\Events.png" />
+    <Resource Include="Views\images\free-icon-canister.png" />
+    <Resource Include="Views\images\free-icon-water-drop.png" />
+    <Resource Include="Views\images\Legend.png" />
+    <Resource Include="Views\images\Logo.png" />
+    <Resource Include="Views\images\maintenance.png" />
+    <Resource Include="Views\images\MarshTrue.png" />
+    <Resource Include="Views\images\NameAndDate.png" />
+    <Resource Include="Views\images\PlanerLogo.png" />
+    <Resource Include="Views\images\Products.png" />
+    <Resource Include="Views\images\Reminders.png" />
+  </ItemGroup>
+
+</Project>

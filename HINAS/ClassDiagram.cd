@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HINAS.HinasContext">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAQAAAAAAgAAAAAEAEAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\HinasContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINAS.CheckList">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAgAAAAAAAAAAAEAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\CheckList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINAS.Marker">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\Marker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINAS.Planner">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAIAAAAAIAEAAAEQAAAAAAgEAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Models\Planner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINAS.Supply">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Supply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINAS.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HINAS.Planer" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAQEAAAAAAIAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Planer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HINAS.App">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINAS.ViewModels.PlanerViewModel" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GEAICICQEkAYPEABIEEBAIAAsgSAgBAAAABCpAQAAAA=</HashCode>
+      <FileName>ViewModels\PlanerViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HINAS.ViewModels.CheckListItemViewModel" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhCAAAAAAAAAAAAIAEAAAAAgAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PlanerViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HINAS.ViewModels.RelayCommand" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HINAS.ViewModels.RelayCommand&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
